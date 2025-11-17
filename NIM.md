@@ -1,8 +1,14 @@
-## What is NVIDIA NIM
+## NVIDIA NIM
 
-[NVIDIA NIM](https://developer.nvidia.com/nim) is a set of easy-to-use microservices designed to accelerate the deployment of generative AI models across any cloud or data center. [NIM provides Prometheus metrics](https://docs.nvidia.com/nim-operator/latest/observability.html) indicating request statistics at an HTTP endpoint (/metrics) for monitoring solutions. 
+[NIM provides Prometheus metrics](https://docs.nvidia.com/nim-operator/latest/observability.html) indicating request statistics at an HTTP endpoint (/metrics) for monitoring solutions. 
 
-Below is a guide for how to configure metrics scraping from the NVIDIA NIM for ingest and analysis within Dynatrace. For more details on the use cases see the [Dynatrace NVIDIA NIM Hub tile](https://www.dynatrace.com/hub/detail/nvidia-nim/?query=nim&filter=all)
+Below is a guide for how to configure metrics scraping from the NVIDIA NIM for ingest and analysis within Dynatrace. 
+
+For more details on the use cases see the [Dynatrace NVIDIA NIM Hub tile](https://www.dynatrace.com/hub/detail/nvidia-nim/?query=nim&filter=all)
+
+## Overview YouTube Video
+
+[<img alt="NVIDIA NIM" src="images/nim.png" width="30%">](https://www.youtube.com/watch?v=PhpN6sWo2pM)
 
 ## Example NIM model Deployment 
 

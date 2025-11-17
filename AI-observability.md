@@ -6,9 +6,13 @@ The OpenTelemetry project has defined [semantic conversions](https://opentelemet
 
 [OpenLLMetry](https://www.traceloop.com/docs/openllmetry/introduction) is an opensource project that allows you to easily start monitoring and debugging the execution of your LLM app. Tracing is done in a non-intrusive way, built on top of OpenTelemetry.Once a application is instrumented with OpenLLMetry and configured with a Dynatrace OTLP API and token, the application automatically sends the spans and data to Dynatrace.
 
-Below is a guide for how to configure OpenTelemetry ingest and analysis within Dynatrace. For more details on the use cases see the [Dynatrace AI Observability Hub tile](https://www.dynatrace.com/hub/detail/ai-and-llm-observability)
+## Overview YouTube Video
+
+[<img alt="NVIDIA End-to-End Observability" src="images/e2e.png" width="30%">](https://www.youtube.com/watch?v=chuG-doRA1w)
 
 ## OpenTelemetry ingest into Dynatrace 
+
+Below is a guide for how to configure OpenTelemetry ingest and analysis within Dynatrace. For more details on the use cases see the [Dynatrace AI Observability Hub tile](https://www.dynatrace.com/hub/detail/ai-and-llm-observability)
 
 There are a few options to integrate [OpenTelemetry into Dynatrace](https://www.dynatrace.com/hub/detail/opentelemetry), but this guide is based on configuring an OpenLLMetry instrumented application with the [Dynatrace OTLP ingest APIs](https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-api/environment-api/opentelemetry).
 
