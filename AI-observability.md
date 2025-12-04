@@ -10,6 +10,8 @@ The OpenTelemetry project has defined [semantic conversions](https://opentelemet
 
 [<img alt="NVIDIA End-to-End Observability" src="images/e2e.png" width="30%">](https://www.youtube.com/watch?v=chuG-doRA1w)
 
+[YouTube Video](https://www.youtube.com/watch?v=chuG-doRA1w)
+
 ## OpenTelemetry ingest into Dynatrace 
 
 Below is a guide for how to configure OpenTelemetry ingest and analysis within Dynatrace. For more details on the use cases see the [Dynatrace AI Observability Hub tile](https://www.dynatrace.com/hub/detail/ai-and-llm-observability)

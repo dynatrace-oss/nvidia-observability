@@ -6,6 +6,9 @@
 
 [<img alt="NVIDIA NIM" src="images/gpu.png" width="30%">](https://www.youtube.com/watch?v=8OaF3SXOCYE)
 
+[YouTube Video](https://www.youtube.com/watch?v=8OaF3SXOCYE)
+
+
 ## Metric ingest into Dynatrace 
 
 Below is a guide for how to configure metrics scraping from the NVIDIA DCGM-Exporter for ingest and analysis within Dynatrace.  For more details on the use cases see the [Dynatrace NVIDIA DCGM-Exporter Hub tile](https://www.dynatrace.com/hub/detail/nvidia-dcgm-exporter/?query=nvidi&filter=all)

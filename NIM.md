@@ -10,6 +10,8 @@ For more details on the use cases see the [Dynatrace NVIDIA NIM Hub tile](https:
 
 [<img alt="NVIDIA NIM" src="images/nim.png" width="30%">](https://www.youtube.com/watch?v=PhpN6sWo2pM)
 
+[YouTube Video](https://www.youtube.com/watch?v=PhpN6sWo2pM)
+
 ## Example NIM model Deployment 
 
 Below shows the deployment and valdiation of the [llama-3_3-70b-instruct model](https://build.nvidia.com/meta/llama-3_3-70b-instruct/deploy?environment=openshift.md) NIM using the OpenShift deployment option.   

@@ -6,3 +6,5 @@ Refer to the [NVIDIA guide](https://github.com/NVIDIA/NeMo-Agent-Toolkit/blob/de
 ## Overview YouTube Video
 
 [<img alt="NVIDIA NeMo Agent Toolkit" src="images/toolkit.png" width="30%">](https://www.youtube.com/watch?v=2FAS8T9qVEc)
+
+[YouTube Video](https://www.youtube.com/watch?v=2FAS8T9qVEc)
