@@ -1,57 +1,27 @@
 # Overview
 
-This repo provides various guides to show how easy it is to setup and monitor the key tiers and components of the [NVIDIA enterprise stack](https://docs.nvidia.com/ai-enterprise), LLMs, and Generative AI applications with [Dynatrace](https://www.dynatrace.com). Guides are structured according the visual shown above.
+<img alt="dynatrace-nvidia" src="images/dynatrace-nvidia.png" width="75%">
 
-## Dynatrace and NVIDIA
+NVIDIA is helping enterprises build AI factories that are cost effective, scalable and high-performing — equipping them to meet the next industrial revolution. The design for an [Enterprise AI Factory](https://www.nvidia.com/en-us/solutions/ai-factories/validated-design/) integrates seamlessly with enterprise systems, data sources, and security infrastructure through NVIDIA’s partner solutions.
 
-The Dynatrace platform brings both complete observability to and automation for various tiers in AI application stacks. Below are guides to setup the Dynatrace observability and once enabled, they bring:
-1. End-to-End Application Observability
-2. Dynatrace Service Level Management (SLOs) to manage performance, safety, and costs.
-3. Custom views and analytics using dashboards and notebooks
-4. Dynatrace workflows raise SLO violations and problems next actions (e.g. Slack or MS Teams) or Incident Management (e.g. ServiceNow & Jira)
+As described in the [NVIDIA Enterprise AI Factory - Design Guide](https://docs.nvidia.com/ai-enterprise/planning-resource/ai-factory-white-paper/latest/ecosystem-architecture.html), it is with Observability that teams can understand the operation of long-running agents, extensive telemetry is necessary to observe the internal reasoning of the system. AgentOps addresses this requirement through a three-pronged monitoring strategy: traces detailing the workflow, logging user activity and responses of the models, and key performance metrics for the outcomes. This comprehensive set of signals provides a complete view, illustrating the entire execution path and quantifying the business value derived from these long-duration tasks.
 
-<img alt="NVIDIA Enterprise Stack" src="images/overview.png" width="50%">
+The [NVIDIA AI Enterprise](https://docs.nvidia.com/ai-enterprise/deployment/bare-metal/latest/platform-overview.html) Infrastructure software encompasses all necessary components for managing and optimizing infrastructure along with AI workloads. NVIDIA provides Release Branches to meet organizational needs. The NVIDIA Kubernetes Operators facilitate a standardized management of NVIDIA GPUs, AI models, and network resources within Kubernetes environments as well as standalone Docker on Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and Ubuntu.
 
-## Setup Guides and Videos
+As a NVIDIA validated partner, Dynatrace serves as a critial part of AI factorys by bringing end-to-end and full stack observability for LLMs and Agentic Generative AI applications running on NVIDIA GPUs and [NVIDIA AI Enterprise](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/) that brings together microservices, frameworks, and libraries for AI development with advanced GPU orchestration and infrastructure management in a fully supported, production-ready, commercial software suite. 
 
-These videos briefly show the setup and data observability within Dynatrace.  See detailed guides using the links below.
+# How to get started
 
-### A. End-to-End Application Observability 
+This repo provides various guides to show how easy it is to setup and monitor the key tiers and components of the [NVIDIA enterprise stack](https://docs.nvidia.com/ai-enterprise), LLMs, and Generative AI applications with [Dynatrace](https://www.dynatrace.com). Guides are structured according the visual shown below.
 
-[Dynatrace AI Observability](https://www.dynatrace.com/hub/detail/ai-and-llm-observability/?filter=ai-ml-observability) brings End-to-End visibility to user interactions, prompt flows, and AI/LLM model performance of your Generative AI, agentic, and LLM services.
+1. [End-to-End Application Observability](ai-observability/README.md)
+1. [NVIDIA NIM, NeMo and other microsevices](microservices/README.md)
+1. [AI application SDKs, frameworks and libraries](frameworks/README.md)
+1. [Kubernetes](kubernetes/README.md)
+1. [GPU telemetry](gpu/README.md)
 
-* [AI-observability](AI-observability.md) setup guide
-* [YouTube Video](https://www.youtube.com/watch?v=chuG-doRA1w)
-* [<img alt="NVIDIA End-to-End Observability" src="images/e2e.png" width="30%">](https://www.youtube.com/watch?v=chuG-doRA1w)
+> **Note**
+> These guides are not officially supported by Dynatrace, but the integrations themselves are.
 
-### B. NVIDIA NIM, NeMo and technologies
-
-Expanded observability coverage of exposed Prometheus metrics and OpenTelemetry telemetry from the various NVIDIA generative AI and lifecycle management tools and technologies. 
-
-1. [NVIDIA NIM](https://developer.nvidia.com/nim) is a set of easy-to-use microservices designed to accelerate the deployment of generative AI models across any cloud or data center. 
-    * [Setup guide for Dynatrace Observability and NVIDIA NIM](NIM.md)
-    * [YouTube Video](https://www.youtube.com/watch?v=PhpN6sWo2pM-doRA1w)
-    * [<img alt="NVIDIA NIM" src="images/nim.png" width="30%">](https://www.youtube.com/watch?v=PhpN6sWo2pM)
-
-2. [NVIDIA NeMo Agent toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) is a flexible, lightweight, and unifying library that allows you to easily connect existing enterprise agents to data sources and tools across any framework.  The NeMo Agent toolkit uses a flexible, plugin-based observability system that provides comprehensive support for configuring logging, tracing, and metrics for workflows. 
-    * [Setup guide for Dynatrace Observability and NeMo toolkit agents using OpenTelemetry](TOOLKIT.md)
-    * [YouTube Video](https://www.youtube.com/watch?v=chuG-2FAS8T9qVEc)
-    * [<img alt="NVIDIA NeMo Agent Toolkit" src="images/toolkit.png" width="30%">](https://www.youtube.com/watch?v=2FAS8T9qVEc)
-
-### C. Kubernetes
-
-Real-time auto-discovery and analysis of applications, NVIDIA platform components, and infrastructure.
-
-* [Setup guide for Dynatrace Observability and Kubernetes](K8s.md)
-* [YouTube Video](https://www.youtube.com/watch?v=chuG-ZYYr2VRXukI)
-* [<img alt="Kubernetes Observabilibty" src="images/k8s.png" width="30%">](https://www.youtube.com/watch?v=ZYYr2VRXukI)
-
-### D. GPU telemetry
-
-Understand workload behavior or monitor GPUs in clusters
-
-* [Setup guide for Dynatrace Observability and DCGM-Exporter](DCGM-exporter.md)
-* [YouTube Video](https://www.youtube.com/watch?v=chuG-8OaF3SXOCYE)
-* [<img alt="NVIDIA NIM" src="images/gpu.png" width="30%">](https://www.youtube.com/watch?v=8OaF3SXOCYE)
-
+<img alt="NVIDIA Enterprise Stack" src="images/nvidia-stack.png" width="50%">
 
